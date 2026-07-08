@@ -3,7 +3,7 @@ describe('Login', () => {
   beforeEach(() =>  {
     
     cy.env(['URL']).then(({ URL }) => {
-      cy.visit(URL)
+      cy.visit('/')
       cy.screenshot('apos-visitar-pagina')
     })
   })
